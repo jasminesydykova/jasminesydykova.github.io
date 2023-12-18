@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header" id="myHeader">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="header-text">
+        <p id="front">Front-end Developer & Motion Designer</p>
+        <h1>Hi, I am <span>Zhasmin</span> Sydykova<br />from Kazakhstan</h1>
+      </div>
+    </div>
+    <!----about me-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="../images/2023-11-28 13.14.00.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Welcome! I'm a 17-year-old Front-end Developer and Motion
+              Designer, crafting digital experiences since 2019. From Instagram
+              edits to 3D motion design in 2022, I love pushing storytelling
+              boundaries. Proficient in HTML, CSS, empowered by American Space,
+              I turn ideas into interactive websites. A polyglot, I speak
+              English (C1), Russian, Kazakh (C2), and navigate German (A2).
+              Beyond coding, I run Jasmiko Store, a creative venture showcasing
+              unique products reflecting my design passion. Join me in this
+              odyssey, where each line of code and keyframe shapes immersive
+              narratives. Welcome to a world where ideas become digital
+              realities.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web interfaces</li>
+                <li>
+                  <span>After Effects</span><br />
+                  Motion Graphics since 2019
+                </li>
+                <li><span>Visual Studio Code</span><br />HTML & CSS</li>
+                <li><span>After Effects</span><br />3D Animation</li>
+              </ul>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>TechCup 2022</span><br />Designing Flyer</li>
+                  <li>
+                    <span>Kwork</span><br />
+                    worked as a freelancer
+                  </li>
+                  <li>
+                    <span>Instagram Business Account</span><br />jasmiko_store
+                    entrepeneur
+                  </li>
+                  <li><span>MakerSpace</span><br />HTML & CSS course</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>173 lyceum</span><br />from 1 to 6 grade</li>
+                  <li><span>174 gymnasium</span><br />from 7 to 11 grade</li>
+                  <li><span>Turan University</span><br />currently studing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------srvices-->
+    <div id="services">
+      <div id="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>UI/UX design</h2>
+            <p>
+              Dedicated to elevating user experiences since 2022, my journey in
+              UI/UX design has been a dynamic exploration of creativity and
+              functionality. Over the years, I've honed my skills to seamlessly
+              blend aesthetics with user-centric design principles. From
+              conceptualizing intuitive interfaces to crafting visually engaging
+              experiences, my portfolio showcases a rich tapestry of projects
+              that reflect my commitment to staying at the forefront of design
+              trends. Through continuous learning and a passion for innovation,
+              I strive to create digital solutions that not only meet but exceed
+              user expectations. Join me on this transformative design odyssey
+              that unfolds at the intersection of artistry and usability.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-hurricane"></i>
+            <h2>Motion Design</h2>
+            <p>
+              Embarking on the exhilarating realm of motion design since 2019,
+              my creative journey has been nothing short of transformative. It
+              all began with humble Instagram edits, where I first delved into
+              the captivating world of After Effects. From those initial
+              experiments, my passion for dynamic storytelling and visual rhythm
+              blossomed. Over the years, I've evolved from crafting engaging
+              social media content to developing immersive motion experiences.
+              This progression is vividly portrayed in my portfolio, a testament
+              to the fusion of my technical prowess and artistic flair. Join me
+              on this mesmerizing odyssey through time and motion, where every
+              frame tells a compelling story.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-cube"></i>
+            <h2>3D Animation</h2>
+            <p>
+              Venturing into the captivating realm of 3D animation since 2022,
+              my creative odyssey unfolds within the dynamic landscape of After
+              Effects. What began as a quest for visual innovation has evolved
+              into a journey of mastery in transforming static ideas into
+              dynamic, lifelike narratives. Armed with the versatile tools of
+              After Effects, I breathe life into concepts, seamlessly blending
+              creativity with technical finesse. My portfolio encapsulates the
+              evolution of my skills, showcasing a fusion of artistry and
+              technology. Step into a world where pixels become stories, and
+              animations become immersive experiences, as I continue to push the
+              boundaries of 3D within the After Effects realm.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---portfolio-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <h2 id="port">Portfolio Introduction</h2>
+        <div class="portfolio">
+          <video controls src="media/Comp 1_2.mp4" width="900px"></video>
+        </div>
+        <div class="work-list">
+          <h2 id="main2">Main Works</h2>
+          <div class="work">
+            <video
+              controls
+              src="media/2023-01-06 22.16.03.mp4"
+              width="300px"
+            ></video>
+            <video controls src="media/Comp 1 copy.mp4" width="300px"></video>
+            <video controls src="media/Comp 1_5.mp4" width="300px"></video>
+            <video controls src="media/Comp 2.mp4" width="300px"></video>
+            <video
+              controls
+              src="media/Comp 3_2_1_1.mp4"
+              width="300px"
+              height="300px"
+            ></video>
+            <video
+              controls
+              src="media/ELEMENT 3D_5_1.mp4"
+              width="300px"
+            ></video>
+            <video controls src="media/main 2.mp4" width="300px"></video>
+            <video controls src="media/post.mp4" width="300px"></video>
+            <video controls src="media/Pre-comp 1.mp4" width="300px"></video>
+            <video controls src="media/logo.mp4" width="300px"></video>
+            <video controls src="media/Comp 1_3.mp4" width="300px"></video>
+            <video controls src="media/Comp 1_4.mp4" width="300px"></video>
+            <video controls src="media/3d.mp4" width="300px"></video>
+            <video
+              controls
+              src="media/ELEMENT 3D (1).mp4"
+              width="300px"
+            ></video>
+            <img src="media/FLYER.pdf" width="300px" />
+          </div>
+          <div id="contact">
+            <div class="container">
+              <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>
+                  <i class="fa-solid fa-paper-plane"></i
+                  >zhasmin.sydykova2006@gmail.com
+                </p>
+                <p><i class="fa-solid fa-phone"></i>+77475447310</p>
+                <div class="social-icons">
+                  <a href="https://www.instagram.com/jydykova/ " target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a href="https://paypal.me/fxvelordjasm" target="_blank"><i class="fa-brands fa-paypal"></i></a>
+                  <a href="https://t.me/jasminesydykova" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+              </div>
+              <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="Your Name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Your Email"
+                    required
+                  />
+                  <textarea
+                    name="Message"
+                    rows="6"
+                    placeholder="Your Message"
+                  ></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbxyZQV0Re3I33WIcCfbiHKiA9BZcMzIaRrurU9oXsiePvVPppdBtMZMWdB5UvAfzh4f/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  </body>
+</html>
